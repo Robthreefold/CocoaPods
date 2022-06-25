@@ -47,7 +47,7 @@ group :development do
   gem 'webmock'
 
   # Integration tests
-  gem 'diffy'
+  gem 'diffy', '>= 3.4.1'
   gem 'clintegracon'
 
   # Code Quality
