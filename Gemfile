@@ -47,14 +47,14 @@ group :development do
   gem 'webmock'
 
   # Integration tests
-  gem 'diffy'
+  gem 'diffy', '>= 3.4.1'
   gem 'clintegracon'
 
   # Code Quality
   gem 'inch_by_inch'
   gem 'rubocop'
 
-  gem 'danger'
+  gem 'danger', '>= 6.0.0'
 end
 
 group :debugging do
